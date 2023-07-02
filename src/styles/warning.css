@@ -1,0 +1,24 @@
+
+#warning{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2000;
+    background: white;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#warning button{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background: #166a16;
+    color: #E0E0E0;
+}
